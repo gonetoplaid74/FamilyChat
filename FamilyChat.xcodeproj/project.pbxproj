@@ -7,14 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C24BD6981D82E12A00557970 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C2DCC9E41D82DCDD00AE0EF3 /* NotoSans-Bold.ttf */; };
+		C24BD6991D82E12A00557970 /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C2DCC9E51D82DCDD00AE0EF3 /* NotoSans-BoldItalic.ttf */; };
+		C24BD69A1D82E12A00557970 /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C2DCC9E61D82DCDD00AE0EF3 /* NotoSans-Italic.ttf */; };
+		C24BD69B1D82E12A00557970 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C2DCC9E71D82DCDD00AE0EF3 /* NotoSans-Regular.ttf */; };
+		C24BD69D1D82E32D00557970 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24BD69C1D82E32D00557970 /* MaterialView.swift */; };
+		C24BD6A01D82E39D00557970 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24BD69F1D82E39D00557970 /* Constants.swift */; };
+		C24BD6A21D82EB0800557970 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24BD6A11D82EB0800557970 /* MaterialButton.swift */; };
+		C24BD6A41D82F1BE00557970 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24BD6A31D82F1BE00557970 /* TextField.swift */; };
+		C2D538DE1D82FD4F001660D7 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D538DB1D82FD4F001660D7 /* FBSDKCoreKit.framework */; };
+		C2D538DF1D82FD4F001660D7 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D538DC1D82FD4F001660D7 /* FBSDKLoginKit.framework */; };
+		C2D538E01D82FD4F001660D7 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D538DD1D82FD4F001660D7 /* Bolts.framework */; };
 		C2DCC9CF1D82DC8A00AE0EF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DCC9CE1D82DC8A00AE0EF3 /* AppDelegate.swift */; };
 		C2DCC9D11D82DC8A00AE0EF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DCC9D01D82DC8A00AE0EF3 /* ViewController.swift */; };
 		C2DCC9D41D82DC8A00AE0EF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2DCC9D21D82DC8A00AE0EF3 /* Main.storyboard */; };
 		C2DCC9D61D82DC8A00AE0EF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2DCC9D51D82DC8A00AE0EF3 /* Assets.xcassets */; };
 		C2DCC9D91D82DC8A00AE0EF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2DCC9D71D82DC8A00AE0EF3 /* LaunchScreen.storyboard */; };
+		E98C792D43015BCB0A2A7F2F /* Pods_FamilyChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D1912876DC9F18AD96BD05E /* Pods_FamilyChat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D1912876DC9F18AD96BD05E /* Pods_FamilyChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FamilyChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		401AD0B14ECDAC7EB5BD6AB0 /* Pods-FamilyChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FamilyChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FamilyChat/Pods-FamilyChat.debug.xcconfig"; sourceTree = "<group>"; };
+		4EFEF818318CBE7684DC878E /* Pods-FamilyChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FamilyChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-FamilyChat/Pods-FamilyChat.release.xcconfig"; sourceTree = "<group>"; };
+		C24BD69C1D82E32D00557970 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		C24BD69F1D82E39D00557970 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C24BD6A11D82EB0800557970 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
+		C24BD6A31D82F1BE00557970 /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		C2D538DB1D82FD4F001660D7 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		C2D538DC1D82FD4F001660D7 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		C2D538DD1D82FD4F001660D7 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		C2DCC9CB1D82DC8A00AE0EF3 /* FamilyChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FamilyChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2DCC9CE1D82DC8A00AE0EF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2DCC9D01D82DC8A00AE0EF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +44,10 @@
 		C2DCC9D51D82DC8A00AE0EF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2DCC9D81D82DC8A00AE0EF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2DCC9DA1D82DC8A00AE0EF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2DCC9E41D82DCDD00AE0EF3 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		C2DCC9E51D82DCDD00AE0EF3 /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		C2DCC9E61D82DCDD00AE0EF3 /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		C2DCC9E71D82DCDD00AE0EF3 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +55,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E98C792D43015BCB0A2A7F2F /* Pods_FamilyChat.framework in Frameworks */,
+				C2D538DE1D82FD4F001660D7 /* FBSDKCoreKit.framework in Frameworks */,
+				C2D538DF1D82FD4F001660D7 /* FBSDKLoginKit.framework in Frameworks */,
+				C2D538E01D82FD4F001660D7 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		110426A2E0B2F7424758E1CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				401AD0B14ECDAC7EB5BD6AB0 /* Pods-FamilyChat.debug.xcconfig */,
+				4EFEF818318CBE7684DC878E /* Pods-FamilyChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9378E6EBD40975EE94149A31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D1912876DC9F18AD96BD05E /* Pods_FamilyChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C24BD69E1D82E38A00557970 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C24BD69F1D82E39D00557970 /* Constants.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		C24BD6A51D82F90600557970 /* FrameWorks */ = {
+			isa = PBXGroup;
+			children = (
+				C2D538DB1D82FD4F001660D7 /* FBSDKCoreKit.framework */,
+				C2D538DC1D82FD4F001660D7 /* FBSDKLoginKit.framework */,
+				C2D538DD1D82FD4F001660D7 /* Bolts.framework */,
+			);
+			name = FrameWorks;
+			sourceTree = "<group>";
+		};
 		C2DCC9C21D82DC8A00AE0EF3 = {
 			isa = PBXGroup;
 			children = (
 				C2DCC9CD1D82DC8A00AE0EF3 /* FamilyChat */,
 				C2DCC9CC1D82DC8A00AE0EF3 /* Products */,
+				110426A2E0B2F7424758E1CE /* Pods */,
+				9378E6EBD40975EE94149A31 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +121,12 @@
 		C2DCC9CD1D82DC8A00AE0EF3 /* FamilyChat */ = {
 			isa = PBXGroup;
 			children = (
+				C24BD6A51D82F90600557970 /* FrameWorks */,
+				C24BD69E1D82E38A00557970 /* Utils */,
+				C2DCC9E31D82DCBE00AE0EF3 /* Resources */,
+				C2DCC9E21D82DCA900AE0EF3 /* Model */,
+				C2DCC9E11D82DCA200AE0EF3 /* View */,
+				C2DCC9E01D82DC9900AE0EF3 /* Controller */,
 				C2DCC9CE1D82DC8A00AE0EF3 /* AppDelegate.swift */,
 				C2DCC9D01D82DC8A00AE0EF3 /* ViewController.swift */,
 				C2DCC9D21D82DC8A00AE0EF3 /* Main.storyboard */,
@@ -64,6 +137,41 @@
 			path = FamilyChat;
 			sourceTree = "<group>";
 		};
+		C2DCC9E01D82DC9900AE0EF3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C2DCC9E11D82DCA200AE0EF3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C24BD69C1D82E32D00557970 /* MaterialView.swift */,
+				C24BD6A11D82EB0800557970 /* MaterialButton.swift */,
+				C24BD6A31D82F1BE00557970 /* TextField.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C2DCC9E21D82DCA900AE0EF3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C2DCC9E31D82DCBE00AE0EF3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C2DCC9E41D82DCDD00AE0EF3 /* NotoSans-Bold.ttf */,
+				C2DCC9E51D82DCDD00AE0EF3 /* NotoSans-BoldItalic.ttf */,
+				C2DCC9E61D82DCDD00AE0EF3 /* NotoSans-Italic.ttf */,
+				C2DCC9E71D82DCDD00AE0EF3 /* NotoSans-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C2DCC9DD1D82DC8A00AE0EF3 /* Build configuration list for PBXNativeTarget "FamilyChat" */;
 			buildPhases = (
+				9AF32F6069B93A8E48FB4858 /* [CP] Check Pods Manifest.lock */,
 				C2DCC9C71D82DC8A00AE0EF3 /* Sources */,
 				C2DCC9C81D82DC8A00AE0EF3 /* Frameworks */,
 				C2DCC9C91D82DC8A00AE0EF3 /* Resources */,
+				92F838F7FC5F2045B324D866 /* [CP] Embed Pods Frameworks */,
+				D8098E613E9BE72A9F8C5BAB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +207,7 @@
 				TargetAttributes = {
 					C2DCC9CA1D82DC8A00AE0EF3 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = MNM3C2L7P4;
 					};
 				};
 			};
@@ -122,6 +234,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C24BD6981D82E12A00557970 /* NotoSans-Bold.ttf in Resources */,
+				C24BD6991D82E12A00557970 /* NotoSans-BoldItalic.ttf in Resources */,
+				C24BD69A1D82E12A00557970 /* NotoSans-Italic.ttf in Resources */,
+				C24BD69B1D82E12A00557970 /* NotoSans-Regular.ttf in Resources */,
 				C2DCC9D91D82DC8A00AE0EF3 /* LaunchScreen.storyboard in Resources */,
 				C2DCC9D61D82DC8A00AE0EF3 /* Assets.xcassets in Resources */,
 				C2DCC9D41D82DC8A00AE0EF3 /* Main.storyboard in Resources */,
@@ -130,13 +246,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		92F838F7FC5F2045B324D866 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FamilyChat/Pods-FamilyChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AF32F6069B93A8E48FB4858 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D8098E613E9BE72A9F8C5BAB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FamilyChat/Pods-FamilyChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C2DCC9C71D82DC8A00AE0EF3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C24BD69D1D82E32D00557970 /* MaterialView.swift in Sources */,
 				C2DCC9D11D82DC8A00AE0EF3 /* ViewController.swift in Sources */,
 				C2DCC9CF1D82DC8A00AE0EF3 /* AppDelegate.swift in Sources */,
+				C24BD6A41D82F1BE00557970 /* TextField.swift in Sources */,
+				C24BD6A01D82E39D00557970 /* Constants.swift in Sources */,
+				C24BD6A21D82EB0800557970 /* MaterialButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,8 +415,15 @@
 		};
 		C2DCC9DE1D82DC8A00AE0EF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 401AD0B14ECDAC7EB5BD6AB0 /* Pods-FamilyChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FamilyChat",
+				);
 				INFOPLIST_FILE = FamilyChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.uk.goneToPlaid.FamilyChat;
@@ -258,8 +433,15 @@
 		};
 		C2DCC9DF1D82DC8A00AE0EF3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EFEF818318CBE7684DC878E /* Pods-FamilyChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FamilyChat",
+				);
 				INFOPLIST_FILE = FamilyChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.uk.goneToPlaid.FamilyChat;
@@ -286,6 +468,7 @@
 				C2DCC9DF1D82DC8A00AE0EF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
